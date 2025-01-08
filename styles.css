@@ -1,0 +1,137 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.dark-2{
+    color: #474747;
+
+} 
+.text-primary{
+    color: #FD6E0A;
+}
+
+#primary{
+    font-weight: 800;
+    font-size: 35px;
+    
+} 
+.header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-shared{
+    background-color:#FD6E0A ;
+    font-weight: bold;
+    color: white;
+    padding: 18px 34px 18px 34px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+nav li:hover{
+    background-color: #df0f0f;
+
+
+} 
+.banner-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 70px;
+}
+.banner-greetings{
+    color: #474747;
+    font-size: 35px;
+}
+.banner-image{
+    width: 580px;
+    margin-right: 48px;
+    margin-left: 200px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    
+    
+}
+.banner-content{
+    width: 580px;
+    
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-family: 18px;
+    color: #757575;
+}
+.secondary-bd{
+    background-color: #FFF8F3;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+#main{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding:30px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+.skl{
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
